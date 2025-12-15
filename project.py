@@ -54,7 +54,7 @@ def main():
     toko_saya = Toko("Toko Elektronik Maju Jaya")
     
     while True:
-        print("\n=== MENU SISTEM GUDANG ===")
+        print("\n=== MENU SISTEM PENYIMPANAN ===")
         print("1. Tambah Produk Baru")
         print("2. Tampilkan Semua Produk")
         print("3. Update Stok Produk")
@@ -98,3 +98,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+    
+    # LAnjutann
