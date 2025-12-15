@@ -1,4 +1,3 @@
-# --- CLASS: PRODUK (Blueprint untuk setiap barang) ---
 class Produk:
     def __init__(self, id_barang, nama, harga, stok):
         self.id_barang = id_barang
@@ -6,11 +5,10 @@ class Produk:
         self.harga = harga
         self.stok = stok
 
-    # Method untuk menampilkan info produk secara rapi
+    # UNtuk menampilkan barang
     def info(self):
         return f"[ID: {self.id_barang}] {self.nama} - Rp{self.harga:,} (Stok: {self.stok})"
 
-# --- CLASS: TOKO (Blueprint untuk sistem manajemen) ---
 class Toko:
     def __init__(self, nama_toko):
         self.nama_toko = nama_toko
@@ -50,7 +48,7 @@ class Toko:
         else:
             print("Produk tidak ditemukan!")
 
-# --- FUNGSI UTAMA (Main Program) ---
+# --- FUNGSI UTAMA ---
 def main():
     # Inisialisasi Toko
     toko_saya = Toko("Toko Elektronik Maju Jaya")
